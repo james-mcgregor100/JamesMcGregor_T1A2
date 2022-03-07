@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+html {
+    height: 1200px;
+}
+html, body {
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+header {
+    /*background-color: rgba(2, 5, 5, 0.37);*/
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px; 
+    width: 100%;
+    padding-bottom: 0;
+    top: 0;
+}
+
+.name {
+    color: white;
+    margin: 0;
+    font-size: 45px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 3px;
+    padding-top: 0px;
+    margin-top: 0;
+    text-shadow: 2px .5px 2px rgb(23, 26, 27);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 80px;
+    z-index: 20;
+}
+
+.menu_button {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.171);
+    color: rgb(213, 231, 238);
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    box-shadow: 1px 1px 3px 2px rgba(250, 248, 248, 0.932);
+    padding-top: 7px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.158);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+
+.menu_button:hover {
+    background:rgba(17, 19, 16, 0.514);  
+}
+
+.dropdown-menu {
+    position: absolute;
+    display: none;
+    background: rgba(0, 0, 0, 0.219);
+    color: white;
+    min-width: 200px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    left: -16%;
+}
+
+.dropdown:hover .dropdown-menu {
+    background: rgba(17, 16, 16, 0.233);
+    display: block;
+    height: 180px;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    display: block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    padding: 20px;
+    border: none;
+    border-top: solid 1px rgba(4, 191, 248, 0.336);
+}
+
+.dropdown-menu a:hover {
+    background: rgba(0, 0, 0, 0.329);
+    color: rgba(250, 131, 131, 0.959);
+    text-decoration: none;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: rgba(248, 250, 250, 0.829);
+}
+
+body {
+    background-image: url('beauty.jpeg');
+    background-position: 0% 85%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    height: 900px;
+}
+
+main {
+    padding-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 900px;
+}
