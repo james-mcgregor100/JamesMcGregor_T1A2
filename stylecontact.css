@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
 
 body {
-    background-image: url('beauty.jpeg');
-    background-position: 0% 85%;
+    background-image: url('wallpaper.jpeg');
+    background-position: 20% 10%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding-bottom: 50px;
 }
 
 .name {
@@ -18,7 +17,7 @@ body {
 }
 
 .myname {
-    font-size: 70px;
+    font-size: 9vw;
     font-family: 'Luckiest Guy', cursive;
     color: white;
     text-shadow: 2px 1.5px 3px rgb(23, 26, 27);
@@ -30,10 +29,11 @@ body {
 .subtitle {
     font-family: 'Permanent Marker', cursive;
     text-decoration: underline;
-    font-size: 25px;
+    letter-spacing: 3px;
+    font-size: 18px;
     margin-top: 0px;
     text-align: center;
-    color: rgb(250, 174, 193);
+    color: rgb(192, 244, 253);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.514);
 }
 
@@ -53,16 +53,16 @@ body {
     height: 40px;
     width: 200px;
     box-shadow: 1px 1px 3px 2px rgba(250, 248, 248, 0.932);
-    padding-top: 7px;
+    padding-top: 5px;
     border-radius: 3px;
     background-color: rgba(0, 0, 0, 0.158);
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Concert One', cursive;
     letter-spacing: 5px;
 }
 
 .menu_button:hover {
-    background:rgba(17, 19, 16, 0.514);  
+    background:rgba(108, 238, 227, 0.692);  
 }
 
 .dropdown-menu {
@@ -70,23 +70,25 @@ body {
     display: none;
     background: rgba(0, 0, 0, 0.664);
     color: white;
-    min-width: 200px;
+    /*min-width: 200px;*/
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    left: -5%;
+    /*left: -5%;*/
 }
 
 .dropdown:hover .dropdown-menu {
     background: rgba(5, 5, 5, 0.904);
     display: block;
     height: 180px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.438);
 }
 
 .dropdown-menu a {
     text-decoration: none;
     display: block;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Concert One', cursive;
     letter-spacing: 5px;
     padding: 20px;
     border: none;
@@ -94,8 +96,8 @@ body {
 }
 
 .dropdown-menu a:hover {
-    background: rgba(0, 0, 0, 0.329);
-    color: rgba(250, 131, 131, 0.959);
+    background: rgba(166, 250, 250, 0.61);
+    color: rgba(252, 250, 250, 0.959);
     text-decoration: none;
 }
 
@@ -104,71 +106,94 @@ a, a:hover, a:focus, a:active {
     color: rgba(248, 250, 250, 0.829);
 }
 
-
 .form-container {
-    background:rgba(248, 248, 250, 0.37);
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.438);
+    background:rgba(248, 248, 250, 0.178);
     border-radius: 5px;
     text-align: center;
     padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    left: 10%;
+    right: 10%;
+    margin-bottom: 20px;
 }
 
 label {
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Concert One', cursive;
     letter-spacing: 4px;
     font-size: 20px;
     text-shadow: 2px .5px 3px rgba(0, 0, 0, 0.705);
 }
 
 input {
-    width: 220px;
+    width: 75%;
     background: rgba(185, 184, 184, 0.562);
 }
 
 input#message {
     height: 250px;
+    width: 90%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+img {
+    margin: 15px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+img:hover {
+    text-decoration: none;
+    transform: rotate(360deg);
+    transition: .4s;
 }
 
 /*Using this breakpoint to increase the width of the message box*/
 @media only screen and (min-width: 380px){
 
-input#message {
-    width: 310px;
+.form-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
 }
 }
 
 /*Using this breakpoint to increase the width of the message box*/
 @media only screen and (min-width: 630px){
 
-    input#message {
-        width: 380px;
-}
-
     .form-container {
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 10%;
+        margin-right: 10%;
         padding-top: 20px;
 }
 }
 
 /*Using this breakpoint to increase the width of the message box*/
 @media only screen and (min-width: 960px){
-
-    input#message {
-        width: 420px;
-    }
     
+    .myname {
+        /*font-size: 4em;*/
+    }
+
     .form-container {
-        margin-left: 250px;
-        margin-right: 250px;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 3%;
         padding-top: 20px;
     }
 
     .myname {
-        margin-bottom: 23px;
+        margin-top: 4%;
+        margin-bottom: 2%;
     }
     }
 

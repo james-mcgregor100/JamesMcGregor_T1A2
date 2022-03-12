@@ -9,14 +9,12 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 2000px;
 }
 
 header {
     /*background-color: rgba(2, 5, 5, 0.37);*/
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -24,16 +22,19 @@ header {
     width: 100%;
     padding-bottom: 0;
     top: 0;
+    z-index: 9;
 }
 
 .name {
     color: white;
     margin: 0;
-    font-size: 9vw;
+    font-size: 35px;
     width: 100%;
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 3px;
+    padding-top: 0px;
+    margin-top: 0;
     text-shadow: 2px .5px 2px rgb(23, 26, 27);
 }
 
@@ -79,9 +80,9 @@ header {
 }
 
 .dropdown:hover .dropdown-menu {
-    background: rgba(17, 16, 16, 0.897);
+    background: rgba(17, 16, 16, 0.911);
     display: block;
-    height: 190px;
+    height: 250px;
     padding-bottom: 20px;
 }
 
@@ -110,164 +111,87 @@ body {
     /*background-image: url('beauty.jpeg');
     background-position: 0% 85%;*/
     background-image: url('wallpaper.jpeg');
-    background-position: 10% 10%;
+background-position: 10% 10%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding-bottom: 50px;
-    height: 1700px;
+    height: 100%;
 }
+
 
 main {
-    padding-bottom: 0;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 0px;
-    height: 1400px;
-    width: 90%; 
-    border-radius: 5px;
-    margin-top: 200px;
-}
-
-.grid {
-    padding-top: 30px;
-    width: 100%;
-    padding-bottom: 30px;
+    /*margin-top: 25%;*/
     display: grid;
-    grid-template-rows: auto;
-    align-items: center;
-    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr 1fr));
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+    margin-top: 10px;
     grid-gap: 30px;
-}
-
-.box {
-    background-color: rgba(253, 200, 200, 0.274); 
-    color: white;
-    height: 250px;
-    width: 250px;
-    text-align: center;
-    border-radius: 5px;
-    /*box-shadow: 3px 2px 4px 2px rgba(162, 224, 248, 0.726);*/
-}
-
-.box:hover {
-    box-shadow: 3px 3px 5px 3px rgba(167, 226, 250, 0.699);
-    transition: 0.5s;
-    transform: scale(1.05);
-    cursor: pointer;
-}
-
-.gridimage {
-    height: 60%;
+    height: 100%;
     width: 100%;
-    margin: 0;
-    display: block;
-    opacity:;
-}
-
-.blogtitle {
-    height: 20%;
-    font-size: 15px;
-    text-align: center;
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    padding-top: 2.5%;
-    font-family: 'Concert One', cursive;
-    text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.651);
-}
-
-.blogsubtitle {
-    height: 20%;
-    padding-top: 5%;
-    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.918);
-    font-family: 'Concert One', cursive;
-}
-
-#box5 h1 {
-    padding-top: 5%;
-}
-
-footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    bottom: 0;
     justify-content: center;
-    width: 100%;
-    height: 80px;
+    position: relative;
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+    background-color: rgba(252, 205, 205, 0.199);
+
+
 }
 
-.bottom-social {
-    padding: 5px;
-    height: 80px;
+article {
+    /*background-color: rgba(255, 255, 255, 0.26);*/
+    color: white;
+    font-family: 'Concert One', cursive;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.76);
+    font-size: 1rem;
+    text-align: center;
+    height: 100%;
+    min-width: 200px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.534);
+}
+
+.box1 {
+    margin-left: 0;
+    padding-top: 15px;
 }
 
 img {
-    width: 40px;
-    height: 40px;
-    margin: 15px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.349);
+}
+
+
+.box3 {
+    padding-bottom: 20px;
 }
 
 @media screen and (min-width: 700px) {
     
-    html {
-        height: 1300px;
-    }
-
-    body { 
-        height: 1200px;
-    }
-
     main {
-        height: 1100px;
-        margin-top: 30%;
-    }
-    .grid {
-        display: grid;
-        grid-gap: 40px;
-        grid-template-columns: 1fr 1fr;
+        grid-gap: 0px;
+        height: 90%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
-    .box {
-        height: 300px;
-        width: 300px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-
-    html {
-        height: 1450px;
+    article {
+        font-size: 1.3rem;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
-    main {
-        height: 1450px;
-        margin-top: 250px;
-    }
-
-    body {
-        height: 1450px;
-    }
-
-    .name {
-        font-size: 6em;
-    }
-
-    .grid {
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 30;
-        height: 800px;
-    }
-
-    .box {
-        height: 425px;
-        width: 425px;
-    }
-
-    .blogtitle {
-        font-size: 25px;
-    }
-
-    .blogsubtitle {
-        font-size: 20px;
+    img {
+        width: 80%;
     }
 }
