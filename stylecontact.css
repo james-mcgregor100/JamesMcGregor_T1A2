@@ -4,8 +4,7 @@
 
 body {
     background-image: url('wallpaper.jpeg');
-    background-position: 20% 10%;
-    background-attachment: fixed;
+    background-position: 0% 0%;
     background-repeat: no-repeat;
 }
 
@@ -14,6 +13,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .myname {
@@ -113,7 +113,7 @@ a, a:hover, a:focus, a:active {
     padding: 10px;
     left: 10%;
     right: 10%;
-    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 label {
@@ -130,32 +130,40 @@ input {
 }
 
 input#message {
-    height: 250px;
+    height: 100px;
     width: 90%;
 }
 
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    margin-top: 40px;
+    height: 100px;
 }
 
-img {
-    margin: 15px;
-    margin-bottom: 10px;
+.social {
     height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 40px;
 }
 
-img:hover {
+.social:hover {
     text-decoration: none;
     transform: rotate(360deg);
     transition: .4s;
 }
+
+.copyright {
+    color: rgba(0, 0, 0, 0.541);
+    font-family: 'Concert One', cursive;
+}
+
+
 
 /*Using this breakpoint to increase the width of the message box*/
 @media only screen and (min-width: 380px){
@@ -174,6 +182,7 @@ img:hover {
         margin-left: 10%;
         margin-right: 10%;
         padding-top: 20px;
+        margin-bottom: 50px;
 }
 }
 

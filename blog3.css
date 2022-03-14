@@ -13,7 +13,6 @@ html, body {
 }
 
 header {
-    /*background-color: rgba(2, 5, 5, 0.37);*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -21,7 +20,6 @@ header {
     align-items: center;
     height: 250px; 
     width: 100%;
-    padding-bottom: 0;
     top: 0;
     z-index: 9;
 }
@@ -104,6 +102,21 @@ header {
     text-decoration: none;
 }
 
+.blogpost {
+    display: flex;
+    width: 85%;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Concert One', cursive;
+}
+
+.blogpost a:hover {
+    text-decoration: none;
+    color: rgb(136, 253, 237);
+    transform: scale(1.15);
+}
+
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: rgba(248, 250, 250, 0.829);
@@ -112,8 +125,8 @@ a, a:hover, a:focus, a:active {
 
 body {
     background-image: url('wallpaper.jpeg');
-    background-position: 10% 10%;
-    background-attachment: fixed;
+    background-position: 0% 0%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 50px;
     height: 100%;
@@ -163,41 +176,65 @@ h1 {
     padding-top: 15px;
 }
 
-blockquote {
-    background-color: rgba(0, 0, 0, 0.212);
-    height: 80px;
-}
-
-blockquote p {
-    font-size: 25px;
-    padding-top: 10px;
-}
-
-img {
-    width: 100%;
+.blogpic {
+    width: 80%;
     padding: 0;
     margin: 0;
     border-radius: 3px;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.349);
 }
 
-
 .box3 {
     padding-bottom: 20px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    margin-top: 60px;
+}
+
+.social {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.social:hover {
+    text-decoration: none;
+    transform: rotate(360deg);
+    transition: .4s;
+}
+
+.copyright {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.541);
+    font-family: 'Concert One', cursive;
+}
+
 @media screen and (min-width: 700px) {
     
+    header {
+        height: 280px;
+    }
+
     main {
         grid-gap: 0px;
-        height: 90%;
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
     }
 
     .name {
-        height: 100px;
+        height: 80px;
+        font-size: 6vw;
+        margin-top: 5%;
     }
 
     article {
@@ -208,5 +245,10 @@ img {
 
     img {
         width: 80%;
+    }
+
+    .blogpost {
+        font-size: 1.4em;
+        font-weight: 600;
     }
 }

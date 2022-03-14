@@ -40,7 +40,7 @@ header {
 
 .dropdown {
     position: relative;
-    display: inline-block;
+    display: flex;
     height: 70px;
     z-index: 20;
 }
@@ -109,9 +109,9 @@ a, a:hover, a:focus, a:active {
 
 .blogpost {
     display: flex;
-    width: 100%;
+    width: 85%;
     height: 40px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     font-family: 'Concert One', cursive;
 }
@@ -124,8 +124,7 @@ a, a:hover, a:focus, a:active {
 
 body {
     background-image: url('wallpaper.jpeg');
-    background-position: 10% 10%;
-    background-attachment: fixed;
+    background-position: 0% 0%;
     background-repeat: no-repeat;
     padding-bottom: 50px;
     height: 100%;
@@ -185,8 +184,8 @@ footer {
 }
 
 .social {
-    margin: 20px;
-    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     height: 40px;
     width: 40px;
 }
@@ -200,6 +199,7 @@ footer {
 .copyright {
     margin-top: 15px;
     color: rgba(0, 0, 0, 0.541);
+    font-family: 'Concert One', cursive;
 }
 
 @media screen and (min-width: 430px) {

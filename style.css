@@ -12,13 +12,13 @@ html, body {
 }
 
 body {
-    /*background-image: url('beauty.jpeg');*/
-    /*background-position: 0% 85%;*/
     background-image: url('wallpaper.jpeg');
-    background-position: 10% 10%;
+    background-position: 5% 15%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+    overflow: hidden;
+
 }
 
 main {
@@ -31,8 +31,9 @@ main {
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    height: 240px;
+    height: 180px;
     width: 100%;
+    margin-top: 5%;
 }
 
 .subtitle {
@@ -59,7 +60,7 @@ main {
     width: 90%;
     height: 100%;
     margin-bottom: 0;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 .navbar {
@@ -68,14 +69,13 @@ main {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    position: fixed;
     width: 100%;
     margin-top: 15px;
     font-family: 'Concert One', cursive;
     letter-spacing: 10px;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
-    font-weight:;
+    font-weight: 200;
 }
 
 nav a {
@@ -110,54 +110,65 @@ a, a:hover, a:focus, a:active {
 }
 
 footer {
-    position: absolute;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: absolute;
     bottom: 0;
+    height: 120px;
     width: 100%;
+}
+
+.bottom-social {
     height: 60px;
 }
 
-img {
+
+
+.social {
     margin: 15px;
-    margin-bottom: 10px;
     height: 40px;
     width: 40px;
 }
 
-img:hover {
+.social:hover {
     text-decoration: none;
     transform: rotate(360deg);
     transition: .4s;
 }
 
+.copyright {
+    color: rgba(0, 0, 0, 0.541);
+    font-family: 'Concert One', cursive;
+    margin-bottom: 20px;
+}
+
 /* Under 600px is mobile first design above*/
 /* Tablets (600px and up) */
 @media only screen and (min-width: 600px) {
+
    a {
-    margin-top: 0;
+    margin-top: 10%;
     height: 85px;
     padding-top: 25px;
     }
+
     .myname {
-        margin-top: 10%;
-        font-size: 4em;
+        font-size: 3em;
     }
 }
 /* For screens larger than tablets*/
     @media only screen and (min-width: 900px){
     .name {
-        height: 220px;
+        height: 160px;
     }
     .myname {
         font-size: 65px;
-        margin-top: 100px;
+        margin-top: 60px;
     }
     .subtitle {
         font-size: 35px;
-        margin-top: -10px;
     }
     nav {
         height: 300px;
@@ -168,11 +179,14 @@ img:hover {
         height: 150px;
     }
     .bottom-social {
-        margin-bottom: 40px;
     }    
-    .twitter, .github, .linkedin {
-        height: 40px;
-        width: 40px;
+    .social {
+        height: 50px;
+        width: 50px;
+    }
+
+    .copyright {
+        margin-bottom: 20px;
     }
 }
 /*For screens beyond 1440px/2k size*/
