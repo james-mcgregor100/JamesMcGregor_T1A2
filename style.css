@@ -18,7 +18,6 @@ body {
     background-repeat: no-repeat;
     padding-bottom: 10px;
     overflow: hidden;
-
 }
 
 main {
@@ -116,15 +115,13 @@ footer {
     justify-content: center;
     position: absolute;
     bottom: 0;
-    height: 120px;
+    height: 100px;
     width: 100%;
 }
 
 .bottom-social {
     height: 60px;
 }
-
-
 
 .social {
     margin: 15px;
@@ -141,7 +138,7 @@ footer {
 .copyright {
     color: rgba(0, 0, 0, 0.541);
     font-family: 'Concert One', cursive;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 /* Under 600px is mobile first design above*/
