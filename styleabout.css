@@ -67,7 +67,7 @@ header {
 }
 
 .menu_button:hover {
-    background:rgba(2, 2, 2, 0.76);  
+    background:rgba(108, 238, 227, 0.692);  
 }
 
 .dropdown-menu {
@@ -100,7 +100,7 @@ header {
 }
 
 .dropdown-menu a:hover {
-    background: rgba(94, 203, 218, 0.562);
+    background: rgba(139, 243, 238, 0.733);
     color: rgba(250, 246, 246, 0.959);
     text-decoration: none;
 }
@@ -133,6 +133,25 @@ main {
     margin-bottom: 0px;
     height: 1400px;
 }
+
+#jamesresume {
+    font-size: 30px;
+    color: white;
+}
+
+#jamesresume:hover {
+    color: rgba(83, 250, 228, 0.904);
+    text-decoration: underline;
+}
+
+#coderacademy {
+    color:aqua;
+}
+
+#coderacademy:hover {
+    text-decoration: underline;
+}
+
 
 .grid {
     width: 100%;
@@ -207,43 +226,6 @@ main {
 
 #mongocolor {
     color: rgba(114, 243, 114, 0.795);
-}
-
-
-/*This will open the PDF file of the resume in a separate tab*/
-/*.resume_button {
-    display: inline-block;
-    background: rgba(0, 0, 0, 0.411);
-    height: 60px;
-    width: 220px;
-    padding-top: 5%;
-    letter-spacing: 4px;
-    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.384);
-    text-align: center;
-}*/
-
-.buttoninfo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.322);
-    height: 15%;
-}
-
-#jamesresume {
-    font-size: 30px;
-    color: white;
-}
-
-.buttoninfo a {
-}
-
-.resume_button:hover {
-    background-color: rgba(252, 249, 249, 0.829);
-}
-
-#jamesresume:hover {
-    color: rgba(83, 250, 228, 0.904);
 }
 
 footer {
