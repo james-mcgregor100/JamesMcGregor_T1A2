@@ -30,7 +30,7 @@ main {
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    height: 180px;
+    height: 160px;
     width: 100%;
     margin-top: 5%;
 }
@@ -38,7 +38,7 @@ main {
 .subtitle {
     height: 40px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
     color: rgba(221, 251, 255, 0.986);
     text-shadow: 2px 3px rgba(8, 8, 8, 0.712);
@@ -138,7 +138,8 @@ footer {
 .copyright {
     color: rgba(0, 0, 0, 0.541);
     font-family: 'Concert One', cursive;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    height: 50px;
 }
 
 /* Under 600px is mobile first design above*/
