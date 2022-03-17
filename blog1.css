@@ -107,9 +107,9 @@ a, a:hover, a:focus, a:active {
 
 .blogpost {
     display: flex;
-    width: 85%;
+    width: 100%;
     height: 40px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-family: 'Concert One', cursive;
 }
