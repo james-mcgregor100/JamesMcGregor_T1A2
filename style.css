@@ -13,11 +13,10 @@ html, body {
 
 body {
     background-image: url('wallpaper.jpeg');
-    background-position: 5% 15%;
-    background-attachment: fixed;
+    background-position: 10% 10%;
+    /*background-size: cover;*/
     background-repeat: no-repeat;
-    padding-bottom: 10px;
-    overflow: hidden;
+    /*padding-bottom: 10px;*/
 }
 
 main {
@@ -117,6 +116,7 @@ footer {
     bottom: 0;
     height: 100px;
     width: 100%;
+    margin-top: 20px;
 }
 
 .bottom-social {
