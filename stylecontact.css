@@ -171,6 +171,7 @@ input#message {
     height: 25px;
     color: rgb(27, 24, 24);
     letter-spacing: 3px;
+    margin-bottom: 10px;
 }
 
 #submitbutton:hover {
@@ -213,7 +214,7 @@ footer {
 .form-container {
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 }
 
@@ -223,7 +224,7 @@ footer {
     .form-container {
         margin-left: 10%;
         margin-right: 10%;
-        padding-top: 20px;
+        padding-top: 10px;
         margin-bottom: 50px;
 }
 }
@@ -239,7 +240,7 @@ footer {
         margin-left: 15%;
         margin-right: 15%;
         margin-top: 3%;
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .myname {
