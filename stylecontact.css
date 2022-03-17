@@ -31,13 +31,16 @@ body {
     text-decoration: underline;
     letter-spacing: 3px;
     font-size: 18px;
-    margin-top: 0px;
+    margin-top: 20px;
     text-align: center;
     color: rgb(192, 244, 253);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.514);
+    padding-left: 10px; 
+    padding-right: 10px;
 }
 
 .contactdetails {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
