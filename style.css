@@ -9,6 +9,7 @@ html, body {
     margin:0;
     padding:0;
     height:100%;
+    overflow: hidden;
 }
 
 body {
@@ -179,12 +180,16 @@ h4 {
         flex-direction: row;
         margin-top: 90px;
         height: 150px;
+        margin-bottom: 120px;
     }
-    .bottom-social {
-    }    
+    
+    footer {
+        margin-top: 20px;
+    }
+
     .social {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
     }
 
     .copyright {
