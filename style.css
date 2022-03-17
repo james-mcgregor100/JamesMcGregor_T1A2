@@ -20,7 +20,7 @@ body {
 
 main {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .name {
@@ -114,9 +114,9 @@ footer {
     justify-content: center;
     /*position: absolute;*/
     bottom: 0;
-    height: 100px;
+    height: 80px;
     width: 100%;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 
 .bottom-social {
@@ -138,8 +138,12 @@ footer {
 .copyright {
     color: rgba(0, 0, 0, 0.541);
     font-family: 'Concert One', cursive;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     height: 50px;
+}
+
+h4 {
+    margin-top: 0;
 }
 
 /* Under 600px is mobile first design above*/
