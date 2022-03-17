@@ -9,14 +9,12 @@ html, body {
     margin:0;
     padding:0;
     height:100%;
-    overflow: hidden;
 }
 
 body {
     background-image: url('wallpaper.jpeg');
     background-position: 10% 10%;
     background-repeat: no-repeat;
-    /*padding-bottom: 10px;*/
 }
 
 main {
@@ -163,7 +161,12 @@ h4 {
 }
 /* For screens larger than tablets*/
     @media only screen and (min-width: 900px){
-    .name {
+    
+        html, body {
+            overflow: hidden;
+        }
+    
+        .name {
         height: 160px;
     }
     .myname {
@@ -196,6 +199,8 @@ h4 {
         margin-bottom: 20px;
     }
 }
+
+
 /*For screens beyond 1440px/2k size*/
 @media only screen and (min-width: 1440px) {
     .name {
