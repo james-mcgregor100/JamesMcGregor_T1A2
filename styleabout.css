@@ -12,7 +12,6 @@ html {
 html, body {
     margin: 0 auto;
     padding: 0;
-
 }
 
 header {
@@ -199,9 +198,9 @@ main {
     color: skyblue;
 }
 
-/*Chose to highlight the colors of each coding language according to the company's logo colour*/
+/*Chose to highlight the colors of each coding language according to the company's logo colour to grab the reader's attention.*/
 #htmlcolor {
-    color: rgba(247, 208, 136, 0.863);
+    color: rgba(255, 162, 74, 0.959);
 }
 
 #csscolor {
@@ -209,11 +208,11 @@ main {
 }
 
 #rubycolor {
-    color: rgba(247, 133, 133, 0.849);
+    color: rgba(252, 76, 99, 0.849);
 }
 
 #jscolor {
-    color: rgba(241, 241, 127, 0.849);
+    color: rgba(252, 252, 96, 0.904);
 }
 
 #reactcolor {
@@ -225,7 +224,11 @@ main {
 }
 
 #mongocolor {
-    color: rgba(114, 243, 114, 0.795);
+    color: rgba(109, 250, 109, 0.856);
+}
+
+#personalprojects {
+    color: rgb(73, 240, 232);
 }
 
 footer {
@@ -257,6 +260,7 @@ footer {
     margin-bottom: 30px;
 }
 
+/*Making slight adjustments to keep page layout and positioning as accurate as possible*/
 @media only screen and (max-width: 360px) {
     .box {
         height: 700px;
@@ -283,6 +287,7 @@ footer {
     }
 }
 
+/*Making slight adjustments to keep page layout and positioning as accurate as possible*/
 @media only screen and (min-width: 400px) {
     .info {
         padding-top: 15px;
@@ -294,6 +299,7 @@ footer {
     }
 }
 
+/*Making slight adjustments to keep page layout and positioning as accurate as possible*/
 @media only screen and (min-width: 460px) {
     .info {
         padding-top: 15px;
@@ -303,8 +309,8 @@ footer {
         height: 500px;
     }
 
-/* Under 600px is mobile first design above
-/* Tablets (600px and up) */
+
+/* For screens 700px and up */
 @media only screen and (min-width: 700px) {
 
 header {
@@ -343,7 +349,7 @@ body {
 }
 }
 
-/* For screens larger than tablets*/
+/* For screens larger than tablets, 900px and up*/
 @media only screen and (min-width: 900px){
 
     .grid {
@@ -363,5 +369,4 @@ body {
     .name {
         font-size: 5rem;
     }
-
 }

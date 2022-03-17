@@ -17,7 +17,7 @@ body {
 }
 
 .myname {
-    font-size: 9vw;
+    font-size: 7vw;
     font-family: 'Luckiest Guy', cursive;
     color: white;
     text-shadow: 2px 1.5px 3px rgb(23, 26, 27);
@@ -40,7 +40,7 @@ body {
 }
 
 .contactdetails {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -55,13 +55,21 @@ body {
 .phoneemail {
     margin-top: 5px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.514);
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 
 .contacticons {
     height: 30px;
     width: 30px;
     box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
     border-radius: 50px;
+}
+
+.phoneemail:hover {
+    text-decoration: underline;
+    color: rgb(173, 252, 252);
 }
 
 .dropdown {
