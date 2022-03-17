@@ -227,10 +227,6 @@ main {
     color: rgba(109, 250, 109, 0.856);
 }
 
-#personalprojects {
-    color: rgb(73, 240, 232);
-}
-
 footer {
     display: flex;
     flex-direction: column;
