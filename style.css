@@ -14,7 +14,7 @@ html, body {
 body {
     background-image: url('wallpaper.jpeg');
     background-position: 10% 10%;
-    /*background-size: cover;*/
+    background-size: cover;
     background-repeat: no-repeat;
     /*padding-bottom: 10px;*/
 }
