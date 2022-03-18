@@ -133,6 +133,9 @@ Netlify was used for the deployment of the website, and the actual source of the
 ## Balsamiq 
 Balsamiq was used for the planning stages of my portfolio website. I used Balsamiq to design the basic layout of my pages, and created wireframes for all pages on the website, with three wireframe sizes per page. The three wireframe sizes per page were for the mobile, tablet, and desktop views. This allowed me to plan how I would make my website responsive, before I even began coding in HTML and CSS.
 
+## Canva
+Canva was used to create the presentation.pdf file that is found in the assignment submission. Chose Canva over Microsoft Powerpoint as it offered more modern features, and the interface was more suitable for someone presenting about web design and web development. 
+
 # Important Notes for Lavanya and Ashleigh 
 1. After presenting on Tuesday I was not sure if we needed to have a specific page showing my "projects" or "portfolio work" as a dev. So I decided to add another page to the website which fulfills this part of the brief, and it shows two mock up links for two mock up personal projects that I have "completed". 
 

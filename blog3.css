@@ -262,7 +262,7 @@ footer {
         margin-bottom: 50px;
     }
 }
-
+/*Catering for users with ultra wide screens*/
 @media screen and (min-width: 1440px) {
     header {
         margin-top: 0px;
@@ -283,6 +283,7 @@ footer {
     }
 }
 
+/*Catering for users with ultra wide screens*/
 @media screen and (min-width: 1600px) {
     header {
         margin-top: 0px;
@@ -296,6 +297,7 @@ footer {
     }
 }
 
+/*Catering for users with ultra wide screens*/
 @media screen and (min-width: 2000px) {
     .name {
         margin-top: 3%;
@@ -306,6 +308,7 @@ footer {
 }
 }
 
+/*Catering for users with ultra wide screens*/
 @media screen and (min-width: 2300px) {
     .name {
         margin-bottom: 100px;
