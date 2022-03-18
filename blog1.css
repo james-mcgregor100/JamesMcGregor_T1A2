@@ -253,6 +253,12 @@ footer {
     }
 }
 
+@media screen and (min-width: 1250px) {
+    .name {
+        margin-bottom: 50px;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     header {
         margin-top: 0px;
