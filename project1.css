@@ -221,16 +221,17 @@ footer {
         width: 90%;
         height: 100%;
     }
-
 }
 
 @media screen and (min-width: 420px) {
+
     .projecttitle {
         font-size: 1.6rem;
     }
 }
  
 @media screen and (min-width: 700px) {
+
     .grid {
         display: grid;
         height: 100%;
@@ -259,7 +260,9 @@ footer {
         padding-top: 5px;
     }
 }
+
 @media screen and (min-width: 1024px) {
+
     header {
         margin-bottom: 50px;
     }
@@ -267,6 +270,7 @@ footer {
 
 
 @media screen and (min-width: 1350px) {
+
     header {
         margin-top: 2%;
         margin-bottom: 50px;
@@ -275,6 +279,7 @@ footer {
 }
 
 @media screen and (min-width: 2100px) {
+    
     header {
         height: 450px;
     }
