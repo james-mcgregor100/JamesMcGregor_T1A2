@@ -16,7 +16,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 220px; 
+    height: 200px; 
     width: 100%;
     padding-bottom: 0;
     top: 0;
@@ -24,8 +24,8 @@ header {
 
 .name {
     color: white;
-    margin: 0;
-    font-size: 7vw;
+    margin-top: 2%;
+    font-size: 40px;
     width: 100%;
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
@@ -41,16 +41,16 @@ header {
 }
 
 .menu_button {
-    margin-top: 15px;
+    margin-top: 50px;
     display: inline-block;
     padding: 15px;
     background: rgba(0, 0, 0, 0.171);
     color: rgb(213, 231, 238);
     cursor: pointer;
-    height: 40px;
+    height: 30px;
     width: 150px;
     box-shadow: 1px 1px 3px 2px rgba(250, 248, 248, 0.932);
-    padding-top: 5px;
+    padding-top: 0px;
     border-radius: 3px;
     background-color: rgba(0, 0, 0, 0.158);
     font-size: 20px;
@@ -250,12 +250,36 @@ footer {
         margin-top: 30px;
     }
 
+    .name {
+        font-size: 7vw;
+    }
+
+    .menu_button {
+        height: 40px;
+        padding-top: 5px;
+    }
 }
+@media screen and (min-width: 1024px) {
+    header {
+        margin-bottom: 50px;
+    }
+}
+
 
 @media screen and (min-width: 1350px) {
     header {
-        margin-top: 5%;
-        margin-bottom: 60px;
+        margin-top: 2%;
+        margin-bottom: 50px;
         height: 300px;
+    }
+}
+
+@media screen and (min-width: 2100px) {
+    header {
+        height: 450px;
+    }
+
+    body {
+        height: 1650px;
     }
 }
