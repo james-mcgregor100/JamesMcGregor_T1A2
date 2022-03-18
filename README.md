@@ -128,6 +128,8 @@ Github was used as part of my website deployment process, and was also used to p
 ## Nelitfy
 Netlify was used for the deployment of the website, and the actual source of the website came from Github. My Github repo was connected to my Netlify account, and Netlify used my Github repo to deploy the website.
 
+# Other Tools
+
 ## Balsamiq 
 Balsamiq was used for the planning stages of my portfolio website. I used Balsamiq to design the basic layout of my pages, and created wireframes for all pages on the website, with three wireframe sizes per page. The three wireframe sizes per page were for the mobile, tablet, and desktop views. This allowed me to plan how I would make my website responsive, before I even began coding in HTML and CSS.
 
