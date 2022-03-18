@@ -238,7 +238,7 @@ footer {
     }
 
     .name {
-        font-size: 7vw;
+        font-size: 6vw;
         height: 70px;
     }
 
@@ -251,5 +251,12 @@ footer {
         font-size: 1.4em;
         font-weight: 600;
     }
+}
 
+@media screen and (min-width: 1440px) {
+    header {
+        margin-top: 0px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
 }
