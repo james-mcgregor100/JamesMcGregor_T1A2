@@ -72,39 +72,61 @@ For this component, the grid tool was used for aligning and positioning the imag
 
 ## Styling:
 
-Fonts Used:
+### Fonts Used:
 1. Concert One - https://fonts.google.com/specimen/Concert+One?query=concert+one
 2. Luckiest Guy - https://fonts.google.com/specimen/Luckiest+Guy?query=luckiest+guy
 3. Permanent Marker - https://fonts.google.com/specimen/Permanent+Marker?query=perman
 
 These fonts were chosen as they were a perfect fit for the style of what I was trying to express. I wanted to create a webpage that was a professional portfolio, but at the same time, a website that had a fun and playful side to it. These fonts are not traditional, plain, block letter fonts. They are more rounded and curved, and look like they belong in cartoons, urban graffiti or pop culture media content for millenials. These fonts were a great fit for the style I was trying to achieve.
 
+### Colors: 
+For the common theme of my website, I chose it to have a common theme of a blue/purple/orange background, and a white foreground/text, with small sporadic highlights of black and aqua. These colours went well together during the planning stages of the website, and they were deployed on every page and styled in a similar manner.
+
+I chose to have a colourful background, and to play colours of the background and text off each other throughout the website. The white text on every page helps to separate it from the colourful background, and I decided to use very slight text-shadows on a large portion of text on every page to provide more depth. This helped to add another slight layer of contrast, which ultimately allows the user to focus more easily on the text, and to not be distracted by the background. 
+
+Many buttons and links throughout the website have hover functions which change the colour of the text or the button once a mouse hovers over it. This increases the interactivity between the user and the website, and allows for a more fun and engaging experience for the user. 
+
+### Transparent Text and Image Boxes:
+A low opacity box has been deployed behind many text boxes and images on most (if not all) pages of the website, which help to add another layer of contrast between the colourful background and the text in the foreground. This low opacity box was given a "whiteish" colour so it could complement the rest of the white styling on different headings, text, and buttons found on all pages. 
+
+
 # Sitemap:
-My website sitemap uses a very basic layout which features the four main pages of my website - the home page, about me page, blog page, and contact page. Through the use of a navigation button (available on all pages), the user is able to navigate between these four main pages with ease. 
+My website sitemap uses a very basic layout which features the five main pages of my website - the home page, about me page, blog page, the projects page, and the contact page. Through the use of a navigation button (available on all pages), the user is able to navigate back and forth between these five main pages with ease. 
 
-Through the blog page (mentioned above), the user can also access a further five web pages which are five separate blog posts (as per the assignment rubric). Within these five pages, the user is able to easily navigate between all five blog posts with the help of conveniently placed "previous post" and "next post" buttons at the top of every blog post. Moreover, the navigation button (used in the four main pages) is also placed at the top of every blog post to allow the user to move back to any of the four main pages if they wish to do so. 
+Through the blog page (mentioned above), the user can also access a further five web pages which are five separate blog posts (as per the assignment rubric). Within these five pages, the user is able to easily navigate between all five blog posts with the help of conveniently placed "previous post" and "next post" buttons at the top of every blog post. Moreover, the navigation button (used in the four main pages) is also placed at the top of every blog post to allow the user to move back to any of the five main pages if they wish to do so. 
 
-This basic layout allows users to move back and forth between all pages throughout the website with as little inconvenience as possible. 
+This basic but effective layout allows users to move back and forth between all pages throughout the website with minimal inconvenience.
 
 # Screenshots:
 
 # Target audience:
-The target audience for this website is a potential employer in the IT industry looking to engage myself as a developer for their company.
+The target audience for this website is a potential employer in the IT industry looking to engage myself as a developer for their company. While planning for, and desining this website, I had to be mindful of the level of knowledge and expectations of this IT professional.
+
+I had to expect that the employer would have the following knowledge and expectations:
+
+Technical knowledge relating to information technology, software development/coding, programming languages and development stacks
+high expectations of professionalism and a positive work ethic.
+
 
 # Tech stack:
 The tech stack used throughout this website is a combination of HTML and CSS, and Github and Netlify were used to deploy the website. 
 
 ## HTML
-HTML was used to produce the basic skeleton of the website, and to also include links, images, and text where necessary. Moreover, HTML was used to implement semantic elements throughout the website to allow for cater for accessibility, and "alt" tags were used where necessary to provide descriptions of images.
+HTML was used to produce the basic skeleton of the website, and to also include links, images, and text where necessary. Moreover, HTML was used to implement semantic elements throughout the website to cater for accessibility, and "alt" tags were used where necessary to provide descriptions of images.
 
 ## CSS
 CSS was used for all styling of the website, which included the background, fonts, text colour, text spacing, borders, padding, margins, text and box shadows, animations, width and height of all components, and, of course, flexbox and grid. 
+
+If the reader opens up any of the CSS files used in this project, they will find that almost every single element contained in the 10 pages of the website have been heavily styled by CSS. 
 
 ## Github
 Github was used as part of my website deployment process, and was also used to push my website to Github's online virtual repository. The online repository containts the source code and images, readme file, and it also keeps a history of all changes I have made on the website after each "push" to Github.
 
 ## Nelitfy
 Netlify was used for the deployment of the website, and the actual source of the website came from Github. My Github repo was connected to my Netlify account, and Netlify used my Github repo to deploy the website.
+
+## Balsamiq 
+Balsamiq was used for the planning stages of my portfolio website. I used Balsamiq to design the basic layout of my pages, and created wireframes for all pages on the website, with three wireframe sizes per page. The three wireframe sizes per page were for the mobile, tablet, and desktop views. This allowed me to plan how I would make my website responsive, before I even began coding in HTML and CSS.
 
 # Important Note for Lavanya and Ashleigh 
 After presenting on Tuesday I was not sure if we need to have a specific page showing my "projects" or "portfolio work" as a dev. So I decided to add another page to the website which fulfills this part of the brief, and it shows two mock up links for two mock up personal projects that I have completed. 
