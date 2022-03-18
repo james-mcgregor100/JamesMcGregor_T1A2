@@ -45,8 +45,13 @@ On the pages Blog 1, Blog 2, Blog 3, Blog 4, Blog 5, there are "previous post" a
 On the "About Me" page a line of text is inserted directly below the navigation menu at the top of the page to allow users to download and read my professional resume. This link is active, and it has arrows on either side of the text which indicate to the reader that they can click on this text link to view my resume. 
 
 ## Component 5: Image Links to Five Blog Posts
+The "Blog" home page which is the landing page for the five individual blog posts, has five separate links, which are in the form of images and text. The five images are the direct links to the five individual blog pages, and they 
 
 ## Component 6: Contact Form 
+The Contact Page features a contact form component, which calls the user to action by filling out their details in the contact form and sending the website owner a message, if the user wishes to do so. 
+
+## Component 7: Mobile Phone and Email Address Buttons
+On the Contact page there are two clickable buttons, for my mobile phone number and email address. By clicking these links the user will be able to make a direct phone call to me, or send an email to me directly. These links are incorporated in the website to provide the user with the various ways of contacting me, depending on their preferred method.
 
 
 

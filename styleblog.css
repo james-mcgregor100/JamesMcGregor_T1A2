@@ -109,6 +109,7 @@ a, a:hover, a:focus, a:active {
 body {
     background-image: url('wallpaper.jpeg');
     background-position: 0% 0%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 50px;
 }
@@ -241,7 +242,7 @@ footer {
 @media screen and (min-width: 1024px) {
 
     html {
-        height: 1450px;
+        height: 1950px;
     }
 
     main {
@@ -274,5 +275,26 @@ footer {
 
     .blogsubtitle {
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .grid {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .grid {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .box {
+        height: 425px;
+        width: 425px;
     }
 }
