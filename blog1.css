@@ -123,6 +123,7 @@ a, a:hover, a:focus, a:active {
 body {
     background-image: url('wallpaper.jpeg');
     background-position: 0% 0%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 50px;
     height: 100%;
