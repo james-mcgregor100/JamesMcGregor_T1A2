@@ -1,13 +1,16 @@
 # JamesMcGregor_T1A2
+*Important notes left for Ashleigh/Lavanya/Markers at the bottom of the document.
+
+# Links
 
 Website: www.jamesmcdev.com
 
 Github: www.github.com/james-mcgregor100/finalportfolio
 
-# Purpose:
+# Purpose
 The purpose of this portfolio website was to create a website to showcase myself as a Web Developer, and a professional in the field of IT. I was tasked with creating a website which was responsive, and which made us of flexbox and/or grid on each html page. Moreover, the purpose was to create a website that would showcase my abilities as a developer, and to grab the attention of the user who lands on my home page. Therefore, I set out to design a website that was both a professional website to show to potential employers, but also to show off my own unique personality through the colours, features, and overall styling deployed throughout the website. 
 
-# Functionality/Features:
+# Functionality/Features
 The website features 10 individual html pages, including - 
 
 1. Home Page
@@ -128,8 +131,11 @@ Netlify was used for the deployment of the website, and the actual source of the
 ## Balsamiq 
 Balsamiq was used for the planning stages of my portfolio website. I used Balsamiq to design the basic layout of my pages, and created wireframes for all pages on the website, with three wireframe sizes per page. The three wireframe sizes per page were for the mobile, tablet, and desktop views. This allowed me to plan how I would make my website responsive, before I even began coding in HTML and CSS.
 
-# Important Note for Lavanya and Ashleigh 
-After presenting on Tuesday I was not sure if we need to have a specific page showing my "projects" or "portfolio work" as a dev. So I decided to add another page to the website which fulfills this part of the brief, and it shows two mock up links for two mock up personal projects that I have completed. 
+# Important Notes for Lavanya and Ashleigh 
+1. After presenting on Tuesday I was not sure if we needed to have a specific page showing my "projects" or "portfolio work" as a dev. So I decided to add another page to the website which fulfills this part of the brief, and it shows two mock up links for two mock up personal projects that I have "completed". 
 
-I have not added these into the slide deck PDF file as I understood that we weren't allowed to change the slide deck after the presentation had been completed. Therefore I would like to leave this note to let Ashleigh and Lavanya know that I have added this extra page in after the presentation, firstly for peace of mind, but secondly to try as hard as I can to fulfill as much of the brief and criteria as possible. 
+    I have not added these into the slide deck PDF file as I understood that we weren't allowed to change the slide deck after the presentation had been completed. Therefore I would like to leave this note to let Ashleigh and Lavanya know that I have added this extra page in after the presentation, firstly for peace of mind, but secondly to try as hard as I can to fulfill as much of the brief and criteria as possible. 
 
+2. Please note that I opted for using the "desktop" sized screenshots in this readme document, and I have the other two sized screenshots (mobile and tablet) uploaded in the "docs" folder as per the requirements of the rubric. My reason for using the "desktop" size for the screenshots in this document is purely because the desktop screenshots are in landscape orientation, and take up significantly less room in the document than the extremely long vertical/portrait orientation mobile screenshots. 
+
+Thank you for taking the time to read these important notes.
