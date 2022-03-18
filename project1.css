@@ -211,7 +211,7 @@ footer {
 @media screen and (max-width: 420px) {
 
     main {
-        height: 1000px;
+        height: 850px;
     }
 
     .grid {
