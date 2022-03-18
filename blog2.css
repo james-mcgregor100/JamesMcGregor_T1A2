@@ -224,6 +224,7 @@ footer {
         margin-top: 3%;
         height: 300px;
     }
+
     article {
         font-size: 1.1em;
     }
@@ -245,10 +246,10 @@ footer {
         font-size: 1.4em;
         font-weight: 600;
     }
-
 }
 
 @media screen and (min-width: 1400px) {
+    
     header {
         height: 400px;
         margin-top: 0;

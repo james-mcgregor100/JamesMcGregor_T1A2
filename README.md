@@ -1,12 +1,11 @@
 # James McGregor Portfolio Website - T1A2
 
-
 Website: www.jamesmcdev.com
 
 Github: www.github.com/james-mcgregor100/finalportfolio
 
 # Purpose:
-The purpose of this portfolio website was to create a website to showcase myself as a Web Developer, and a professional in the field of IT. I was tasked with creating a website which was responsive, using flexbox and/or grid on each html page. Moreover, the purpose was to create a website that would showcase my abilities as a developer, and to grab the attention of the user who lands on my home page. Therefore, I set out to design a website that was both a professional website to show to potential employers, but to also show off my own unique personality through the colours, features, overall styling deployed throughout the website. 
+The purpose of this portfolio website was to create a website to showcase myself as a Web Developer, and a professional in the field of IT. I was tasked with creating a website which was responsive, and which made us of flexbox and/or grid on each html page. Moreover, the purpose was to create a website that would showcase my abilities as a developer, and to grab the attention of the user who lands on my home page. Therefore, I set out to design a website that was both a professional website to show to potential employers, but also to show off my own unique personality through the colours, features, and overall styling deployed throughout the website. 
 
 # Functionality/Features:
 The website features 10 individual html pages, including - 
@@ -41,44 +40,27 @@ Flexbox was used on the footer to control its positiong on every page of the web
 ## Component 3: Blog Post Navigation Buttons
 On the pages Blog 1, Blog 2, Blog 3, Blog 4, Blog 5, there are "previous post" and "next post" buttons located above the beginning of each blog post. These buttons have active page links and are an essential component of the page as it allows the user to switch back and forth between each individual blog post, without having to return to the main "Blog Home" page. This component has been added to increase accessibility, and to provide convenience for the user.
 
+These navigation buttons were incorporated into the header, and flexbox was used to position and lay out the components.
+
 ## Component 4: Link to Resume Download
 On the "About Me" page a line of text is inserted directly below the navigation menu at the top of the page to allow users to download and read my professional resume. This link is active, and it has arrows on either side of the text which indicate to the reader that they can click on this text link to view my resume. 
 
 ## Component 5: Image Links to Five Blog Posts
 The "Blog" home page which is the landing page for the five individual blog posts, has five separate links, which are in the form of images and text. The five images are the direct links to the five individual blog pages, and they 
 
-## Component 6: Contact Form 
+## Component 6: Images in Five Blog Posts
+Images were placed in all five blog post pages to complement the paragraphs of text used to write the blog posts. These images helped to break up the paragraphs of text, and also helped to add context to the written content in the blog posts. Ultimately, the decision was made to insert these images for the purpose of keeping the user engaged and interested in the content on the blog post.
+
+## Component 7: Contact Form and Submit Button
 The Contact Page features a contact form component, which calls the user to action by filling out their details in the contact form and sending the website owner a message, if the user wishes to do so. 
 
-## Component 7: Mobile Phone and Email Address Buttons
+At the bottom of the contact form a "submit" button component was added to allow the user to send off the contact form to the owner of the website. 
+
+## Component 8: Mobile Phone and Email Address Buttons
 On the Contact page there are two clickable buttons, for my mobile phone number and email address. By clicking these links the user will be able to make a direct phone call to me, or send an email to me directly. These links are incorporated in the website to provide the user with the various ways of contacting me, depending on their preferred method.
 
 
-
-
 ## Styling
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Sitemap:
 My website sitemap uses a very basic layout which features the four main pages of my website - the home page, about me page, blog page, and contact page. Through the use of a navigation button (available on all pages), the user is able to navigate between these four main pages with ease. 
@@ -95,11 +77,14 @@ The target audience for this website is a potential employer looking to engage m
 # Tech stack:
 The tech stack used throughout this website is a combination of HTML and CSS, and Netlify was used to deploy the website. 
 
-(HTML)
+## HTML
 HTML was used to produce the basic skeleton of the website, and to also include links, images, and text where necessary. Moreover, HTML was used to implement semantic elements throughout the website to allow for cater for accessibility, and "alt" tags were used where necessary to provide descriptions of images.
 
-(CSS)
+## CSS
 CSS was used for all styling of the website, which included the background, fonts, text colour, text spacing, borders, padding, margins, text and box shadows, animations, width and height of all components, and of course, flexbox and grid. 
 
-(Nelitfy)
+## Github
+Github was used as part of my website deployment process, and was also used to push my website to Github's online virtual repository. The online repository containts the source code and images, readme file, and it also keeps a history of all changes I have made on the website after each "push" to Github.
+
+## Nelitfy
 Netlify was used for the deployment of the website, and the actual source of the website came from Github. My Github repo was connected to my Netlify account, and Netlify used my Github repo to deploy the website.
