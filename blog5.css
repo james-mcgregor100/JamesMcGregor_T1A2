@@ -80,7 +80,7 @@ header {
 .dropdown:hover .dropdown-menu {
     background: rgba(17, 16, 16, 0.911);
     display: block;
-    height: 250px;
+    height: 310px;
     padding-bottom: 20px;
 }
 

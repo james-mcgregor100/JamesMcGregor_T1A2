@@ -84,7 +84,7 @@ header {
 .dropdown:hover .dropdown-menu {
     background: rgba(2, 2, 2, 0.938);
     display: block;
-    height: 190px;
+    height: 250px;
     padding-bottom: 5px;
 }
 
@@ -117,12 +117,9 @@ a, a:hover, a:focus, a:active {
 }
 
 body {
-    /*background-image: url('beauty.jpeg');
-    background-position: 0% 85%;*/
     background-image: url('wallpaper.jpeg');
     background-position: 10% 10%;
     background-repeat: no-repeat;
-    /*padding-bottom: 50px;*/
     height: 1500px;
 }
 

@@ -103,18 +103,17 @@ body {
 .dropdown-menu {
     position: relative;
     display: none;
-    background: rgba(0, 0, 0, 0.664);
+    background: rgba(0, 0, 0, 0.76);
     color: white;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    /*left: -5%;*/
 }
 
 .dropdown:hover .dropdown-menu {
-    background: rgba(5, 5, 5, 0.904);
+    background: rgba(5, 5, 5, 0.932);
     display: block;
-    height: 180px;
+    height: 250px;
     padding-bottom: 5px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.438);
 }
