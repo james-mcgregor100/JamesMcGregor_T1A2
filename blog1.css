@@ -27,14 +27,14 @@ header {
 .name {
     color: white;
     margin: 0;
-    font-size: 9vw;
+    font-size: 7vw;
     height: 85px;
     width: 85%;
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 3px;
     padding-top: 0px;
-    margin-top: 20px;
+    margin-top: 10px;
     text-shadow: 2px .5px 2px rgb(23, 26, 27);
 }
 
