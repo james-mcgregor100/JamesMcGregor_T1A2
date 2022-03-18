@@ -12,6 +12,10 @@ html, body {
     height: 100%;
 }
 
+html {
+    height: 1800px;
+}
+
 header {
     /*background-color: rgba(2, 5, 5, 0.37);*/
     display: flex;
@@ -111,7 +115,7 @@ body {
     background-position: 0% 0%;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 50px;
+    height: 1400px;
 }
 
 main {
