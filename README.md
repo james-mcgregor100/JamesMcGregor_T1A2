@@ -5,7 +5,7 @@
 
 Website: www.jamesmcdev.com
 
-Github: www.github.com/james-mcgregor100/finalportfolio
+Github: www.github.com/james-mcgregor100/JamesMcGregor_T1A2
 
 # Purpose
 The purpose of this portfolio website was to create a website to showcase myself as a Web Developer, and a professional in the field of IT. I was tasked with creating a website which was responsive, and which made us of flexbox and/or grid on each html page. Moreover, the purpose was to create a website that would showcase my abilities as a developer, and to grab the attention of the user who lands on my home page. Therefore, I set out to design a website that was both a professional website to show to potential employers, but also to show off my own unique personality through the colours, features, and overall styling deployed throughout the website. 
