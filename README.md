@@ -115,7 +115,7 @@ high expectations of professionalism and a positive work ethic.
 The tech stack used throughout this website is a combination of HTML and CSS, and Github and Netlify were used to deploy the website. 
 
 ## HTML
-HTML was used to produce the basic skeleton of the website, and to also include links, images, and text where necessary. Moreover, HTML was used to implement semantic elements throughout the website to cater for accessibility, and "alt" tags were used where necessary to provide descriptions of images.
+HTML was used to produce the basic skeleton of the website, and to also include links, images, and text where necessary. Moreover, HTML was used to implement semantic elements throughout the website to to create meaning and to cater to accessibility. "Alt" tags were used where necessary to provide descriptions of images.
 
 ## CSS
 CSS was used for all styling of the website, which included the background, fonts, text colour, text spacing, borders, padding, margins, text and box shadows, animations, width and height of all components, and, of course, flexbox and grid. 

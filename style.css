@@ -22,6 +22,7 @@ main {
     margin-bottom: 20px;
 }
 
+/*This component is the header of the page, and it contains both the title and subtitle of the page. Flexbox has been implemented to align and position the elements within it.*/
 .name {
     display: flex;
     flex-direction: column;
@@ -33,6 +34,21 @@ main {
     margin-top: 5%;
 }
 
+/*This element has been styled with the intention to engage the reader the moment they land on the first page of the website, for the first time.*/
+.myname {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(249, 248, 252);
+    text-shadow: 2px 1.5px 3px rgb(23, 26, 27);
+    font-family: 'Luckiest Guy';
+    letter-spacing: 5px;
+    width: 90%;
+    height: 100%;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+
+/*The decision was made to use a separate font for the subtitle as a way to differentiate the title and the subtitle from each other. The user is able to separate the title and subtitle from each other and focus on both of them individually.*/
 .subtitle {
     height: 40px;
     width: 100%;
@@ -47,19 +63,7 @@ main {
     text-align: center;
 }
 
-.myname {
-    font-size: 40px;
-    text-align: center;
-    color: rgb(249, 248, 252);
-    text-shadow: 2px 1.5px 3px rgb(23, 26, 27);
-    font-family: 'Luckiest Guy';
-    letter-spacing: 5px;
-    width: 90%;
-    height: 100%;
-    margin-bottom: 0;
-    margin-top: 5%;
-}
-
+/*This navigation menu is placed horizontally using the flexbox tool in order to fill out space through the middle of the page. This reduces large amounts of whitespace, and allows the user to focus on the navigation menu, and allows them to make a decision of where to go next on the website.*/
 .navbar {
     display: flex;
     flex-direction: column;
@@ -87,7 +91,7 @@ nav a {
     padding-top: 15px;
     text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.527);
     border-radius: 2px;
-    background-color: rgba(255, 255, 255, 0.425);
+    background-color: rgba(255, 255, 255, 0.425);/*A background and background colour was given to these navigation buttons in order to separate the buttons from the colourful background. If one toggles off this background colour, it will become clear why this line of code is important*/
 }
 
 nav a:hover {
@@ -106,6 +110,8 @@ a, a:hover, a:focus, a:active {
     color: rgba(253, 252, 252, 0.932);
 }
 
+/*Footer Section - Using Flexbox. Holds the social media
+buttons and copyright symbol in place */
 footer {
     display: flex;
     flex-direction: column;
@@ -122,12 +128,15 @@ footer {
     height: 60px;
 }
 
+/*Button/Link Component - allowing user to connect with my social media accounts*/
 .social {
     margin: 15px;
     height: 40px;
     width: 40px;
 }
 
+/*Animation - When user hovers over the social media buttons they do a 360 degree spin.
+Just added for some fun and sprinkling on top */
 .social:hover {
     text-decoration: none;
     transform: rotate(360deg);

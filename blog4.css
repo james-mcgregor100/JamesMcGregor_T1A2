@@ -183,6 +183,8 @@ h1 {
     padding-bottom: 20px;
 }
 
+/*Footer Section - Using Flexbox. Holds the social media buttons and copyright
+symbol in place */
 footer {
     display: flex;
     flex-direction: column;
@@ -194,6 +196,8 @@ footer {
     margin-top: 40px;
 }
 
+/*Button/Link Component - allowing user to connect with my
+social media accounts*/
 .social {
     margin-left: 20px;
     margin-right: 20px;
@@ -201,6 +205,9 @@ footer {
     width: 40px;
 }
 
+/*Animation - When user hovers over the social media buttons
+they do a 360 degree spin. Just added for some fun and 
+sprinkling on top */
 .social:hover {
     text-decoration: none;
     transform: rotate(360deg);
