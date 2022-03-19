@@ -107,12 +107,32 @@ This basic but effective layout allows users to move back and forth between all 
 ## Page 1 - Home Page
 ![screenshot_home](./docs/homedesktop.png)
 
-## Page 2 - About Page
+## Page 2 - About Me
 ![screenshot_about](./docs/aboutdesktop.png) 
 
-## Page 3 - Blog Page
+## Page 3 - Blog Home
 ![screenshot_blog](./docs/blogdesktop.png)
 
+## Page 4 - Blog 1
+![screenshot_blog1](./docs/blog1desktop.png)
+
+## Page 5 - Blog 2
+![screenshot_blog2](./docs/blog2desktop.png)
+
+## Page 6 - Blog 3
+![screenshot_blog3](./docs/blog3desktop.png)
+
+## Page 7 - Blog 4
+![screenshot_blog4](./docs/blog4desktop.png)
+
+## Page 8 - Blog 5
+![screenshot_blog5](./docs/blog5desktop.png)
+
+## Page 9 - Projects
+![screenshot_projects](./docs/projects1desktop.png)
+
+## Page 10 - Contact Me
+![screenshot_contact](./docs/contactdesktop.png)
 # Target audience:
 The target audience for this website is a potential employer in the IT industry looking to engage myself as a developer for their company. While planning for, and desining this website, I had to be mindful of the level of knowledge and expectations of this IT professional.
 
