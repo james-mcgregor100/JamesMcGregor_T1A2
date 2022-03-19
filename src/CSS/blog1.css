@@ -129,7 +129,7 @@ a, a:hover, a:focus, a:active {
 }
 
 body {
-    background-image: url('wallpaper.jpeg');
+    background-image: url('../Images/wallpaper.jpeg');
     background-position: 0% 0%;
     background-size: cover;
     background-repeat: no-repeat;

@@ -167,10 +167,10 @@ Balsamiq was used for the planning stages of my portfolio website. I used Balsam
 ## Canva
 Canva was used to create the presentation.pdf file that is found in the assignment submission. Chose Canva over Microsoft Powerpoint as it offered more modern features, and the interface was more suitable for someone presenting about web design and web development. 
 
-# Important Notes for Lavanya and Ashleigh 
+# Important Notes for Lavanya/Ashleigh/Markers
 1. After presenting on Tuesday I was not sure if we needed to have a specific page showing my "projects" or "portfolio work" as a dev. So I decided to add another page to the website which fulfills this part of the brief, and it shows two mock up links for two mock up personal projects that I have "completed". 
 
-    I have not added these into the slide deck PDF file as I understood that we weren't allowed to change the slide deck after the presentation had been completed. Therefore I would like to leave this note to let Ashleigh and Lavanya know that I have added this extra page in after the presentation, firstly for peace of mind, but secondly to try as hard as I can to fulfill as much of the brief and criteria as possible. 
+    I have not added these into the slide deck PDF file as I understand that we weren't allowed to change the slide deck after the presentation had been completed. Therefore I would like to leave this note to let Ashleigh and Lavanya know that I have added this extra page in after the presentation, firstly for peace of mind, but secondly to try as hard as I can to fulfill as much of the brief and criteria as possible. 
 
 2. I have tried to ensure that the code on all HTML pages is syntactically and semantically valid, where possible. I tried to minimize the use of the (div) element, and instead opted for semantically correct code such as (header) (footer) (section) (article), among others. 
 

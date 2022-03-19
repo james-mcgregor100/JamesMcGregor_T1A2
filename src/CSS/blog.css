@@ -7,17 +7,24 @@
 }
 
 html, body {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-/*Header Section - designed to hold the heading and navigation menu in place using flexbox*/
+html {
+    height: 1800px;
+}
+
+/*Header Section - designed to hold the heading and navigation menu in place*/
 header {
     display: flex;
     flex-wrap: wrap;
+    position: absolute;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px; 
+    height: 250px; 
     width: 100%;
     padding-bottom: 0;
     top: 0;
@@ -26,8 +33,8 @@ header {
 /*Page heading to tell the user what page they are on*/
 .name {
     color: white;
-    margin-top: 2%;
-    font-size: 40px;
+    margin: 0;
+    font-size: 9vw;
     width: 100%;
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
@@ -46,16 +53,16 @@ header {
 /*This button will allow users to hover over it and a dropdown menu will appear, with the
 main pages of the website available to click*/
 .menu_button {
-    margin-top: 50px;
+    margin-top: 15px;
     display: inline-block;
     padding: 15px;
     background: rgba(0, 0, 0, 0.171);
     color: rgb(213, 231, 238);
     cursor: pointer;
-    height: 30px;
+    height: 40px;
     width: 150px;
     box-shadow: 1px 1px 3px 2px rgba(250, 248, 248, 0.932);
-    padding-top: 0px;
+    padding-top: 5px;
     border-radius: 3px;
     background-color: rgba(0, 0, 0, 0.158);
     font-size: 20px;
@@ -112,24 +119,24 @@ a, a:hover, a:focus, a:active {
 }
 
 body {
-    background-image: url('wallpaper.jpeg');
-    background-position: 20% 15%;
+    background-image: url('../Images/wallpaper.jpeg');
+    background-position: 0% 0%;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 50px;
-    height: 600px;
-}*/
+    height: 1400px;
+}
 
 main {
     padding-bottom: 0;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 0px;
+    height: 1400px;
     width: 90%; 
     border-radius: 5px;
     margin-top: 200px;
 }
 
-/*Grid tool used to position/align the text/image boxes on the page*/
 .grid {
     padding-top: 30px;
     width: 100%;
@@ -138,19 +145,15 @@ main {
     grid-template-rows: auto;
     align-items: center;
     justify-items: center;
-    grid-gap: 10%;
+    grid-gap: 30px;
 }
 
-/*This box which holds the title, image, and tech stack for the projects is a link. 
-Instead of asking the user to click on one small specific part of the box to interact with
-the link, the choice was made to make the whole box a clickable link. This allows for a 
-simple user experience, and reduces any confusion about where the user must click to open 
-the link*/
+/*The boxes used to display the five individual blog posts are also active links. These links are connected to the whole box (including the text and image). This provides convenience for the user and allows them to click anywhere on the box to access the link*/
 .box {
     background-color: rgba(253, 200, 200, 0.274); 
     color: white;
-    height: 90%;
-    width: 90%;
+    height: 250px;
+    width: 250px;
     text-align: center;
     border-radius: 5px;
 }
@@ -169,22 +172,26 @@ the link*/
     display: block;
 }
 
-.projecttitle {
+.blogtitle {
     height: 20%;
-    font-size: 1.2rem;
+    font-size: 15px;
     text-align: center;
     padding-left: 2.5%;
     padding-right: 2.5%;
-    padding-top: 5%;
+    padding-top: 2.5%;
     font-family: 'Concert One', cursive;
     text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.651);
 }
 
-.projectsubtitle {
+.blogsubtitle {
     height: 20%;
     padding-top: 5%;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.918);
     font-family: 'Concert One', cursive;
+}
+
+#box5 h1 {
+    padding-top: 5%;
 }
 
 /*Footer Section - Using Flexbox. Holds the social media
@@ -209,7 +216,7 @@ footer {
     margin-bottom: 10px;
 }
 
-/*Animation - When user hovers over the social media buttons they do a 360 degree spin. 
+/*Animation - When user hovers over the social media buttons they do a 360 degree spin.
 Just added for some fun and sprinkling on top */
 .social:hover {
     text-decoration: none;
@@ -222,90 +229,89 @@ Just added for some fun and sprinkling on top */
     font-family: 'Concert One', cursive;
 }
 
-/*These media queries have been implemented to ensure the best possible user experience and responsiveness at all sizes. From the smallest mobile screens at sub 300px, right through to ultra wide screens above 1440px*/
-@media screen and (max-width: 300px) {
-    .projectsubtitle {
-        font-size: 1rem;
+@media screen and (min-width: 700px) {
+    
+    html {
+        height: 1650px;
     }
-}
 
-@media screen and (max-width: 420px) {
+    body { 
+        height: 1200px;
+    }
 
     main {
-        height: 850px;
+        height: 1100px;
+        margin-top: 30%;
     }
-
-    .grid {
-        height: 800px;
-    }
-    .box {
-        width: 90%;
-        height: 100%;
-    }
-}
-
-@media screen and (min-width: 420px) {
-
-    .projecttitle {
-        font-size: 1.6rem;
-    }
-}
- 
-@media screen and (min-width: 700px) {
-
     .grid {
         display: grid;
-        height: 100%;
-        grid-gap: 0px;
+        grid-gap: 40px;
         grid-template-columns: 1fr 1fr;
     }
 
     .box {
-        height: 100%;
-    }
-
-    .projecttitle {
-        font-size: 1.7rem;
-    }
-
-    header {
-        margin-top: 30px;
-    }
-
-    .name {
-        font-size: 7vw;
-    }
-
-    .menu_button {
-        height: 40px;
-        padding-top: 5px;
+        height: 300px;
+        width: 300px;
     }
 }
 
 @media screen and (min-width: 1024px) {
 
-    header {
-        margin-bottom: 50px;
+    html {
+        height: 1950px;
     }
-}
 
-
-@media screen and (min-width: 1350px) {
-
-    header {
-        margin-top: 2%;
-        margin-bottom: 50px;
-        height: 300px;
-    }
-}
-
-@media screen and (min-width: 2100px) {
-    
-    header {
-        height: 450px;
+    main {
+        height: 1450px;
+        margin-top: 250px;
     }
 
     body {
-        height: 1650px;
+        height: 1450px;
+    }
+
+    .name {
+        font-size: 6em;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30;
+        height: 800px;
+    }
+
+    .box {
+        height: 425px;
+        width: 425px;
+    }
+
+    .blogtitle {
+        font-size: 25px;
+    }
+
+    .blogsubtitle {
+        font-size: 20px;
+    }
+}
+
+/*The media queries below allow for maximum responsiveness all the way up to 2000px and beyond*/
+@media screen and (min-width: 1440px) {
+    .grid {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .grid {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .box {
+        height: 425px;
+        width: 425px;
     }
 }
