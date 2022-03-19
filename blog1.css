@@ -113,7 +113,8 @@ a, a:hover, a:focus, a:active {
 
 /*Important button which serves the function of allowing users to navigate between individual blog pages.*/
 .blogpost {
-    display: flex;
+    display: flex;/*This button uses flexbox to ensure suitable spacing and alignment 
+    under the nav bar. Without flexbox this spacing and alignment would not work.*/
     width: 100%;
     height: 40px;
     justify-content: center;
@@ -169,7 +170,8 @@ section {
     margin-top: 1%;
     border-radius: 3px;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.349);
-    shape-outside: circle(90%);
+    shape-outside: circle(90%);/*This allows the text to wrap around the image evenly, no
+    matter the screen size.*/
     margin-bottom: 5%;
     margin-right: 4%;
     opacity: 1;

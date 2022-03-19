@@ -12,6 +12,7 @@ html, body {
     padding: 0;
 }
 
+/*Header Section - designed to hold the heading and navigation menu in place*/
 header {
     display: flex;
     flex-wrap: wrap;
@@ -24,6 +25,7 @@ header {
     z-index: 9;
 }
 
+/*Page heading to tell the user what page they are on*/
 .name {
     color: white;
     margin: 0;
@@ -38,12 +40,15 @@ header {
     text-shadow: 2px .5px 2px rgb(23, 26, 27);
 }
 
+/*Nav Bar Section*/
 .dropdown {
     display: inline-block;
     height: 80px;
     z-index: 20;
 }
 
+/*This button will allow users to hover over it and a dropdown menu will appear, with the
+main pages of the website available to click*/
 .menu_button {
     margin-top: 15px;
     display: inline-block;
@@ -77,6 +82,8 @@ header {
     padding-right: 10px;
 }
 
+/*Dropdown Menu - This is the part of the navigation menu that drops down and allows users
+to visit any main page on the website*/
 .dropdown:hover .dropdown-menu {
     background: rgba(17, 16, 16, 0.911);
     display: block;
@@ -100,8 +107,10 @@ header {
     text-decoration: none;
 }
 
+/*Important button which serves the function of allowing users to navigate between
+individual blog pages.*/
 .blogpost {
-    display: flex;
+    display: flex;/*This button uses flexbox to ensure suitable spacing and alignment under the nav bar. Without flexbox this spacing and alignment would not work.*/
     width: 85%;
     height: 40px;
     justify-content: space-around;
@@ -115,6 +124,8 @@ header {
     transform: scale(1.15);
 }
 
+/*This block serves the purpose of removing the typical underline and blue colour seen on
+hyperlinks on websites*/
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: rgba(248, 250, 250, 0.829);
@@ -132,26 +143,18 @@ body {
 
 
 main {
-    /*margin-top: 25%;*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr 1fr));
-    /*margin-left: 10%;
-    margin-right: 10%;*/
     margin-top: 10px;
     grid-gap: 30px;
     height: 100%;
     width: 100%;
     justify-content: center;
     position: relative;
-    /*margin-left: 10%;
-    margin-right: 10%;*/
     background-color: rgba(250, 224, 224, 0.13);
-
-
 }
 
 article {
-    /*background-color: rgba(255, 255, 255, 0.26);*/
     color: white;
     font-family: 'Concert One', cursive;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.76);
@@ -174,6 +177,7 @@ h1 {
     padding-top: 15px;
 }
 
+/*Image Component*/
 .blogpic {
     width: 80%;
     padding: 0;
@@ -186,6 +190,8 @@ h1 {
     padding-bottom: 20px;
 }
 
+/*Footer Section - Using Flexbox. Holds the social media
+buttons and copyright symbol in place */
 footer {
     display: flex;
     flex-direction: column;
@@ -197,6 +203,7 @@ footer {
     margin-top: 60px;
 }
 
+/*Button/Link Component - allowing user to connect with my social media accounts*/
 .social {
     margin-left: 20px;
     margin-right: 20px;
@@ -204,6 +211,8 @@ footer {
     width: 40px;
 }
 
+/*Animation - When user hovers over the social media buttons they do a 360 degree spin.
+Just added for some fun and sprinkling on top */
 .social:hover {
     text-decoration: none;
     transform: rotate(360deg);
@@ -251,6 +260,7 @@ footer {
     }
 }
 
+/*Catering for users with ultra wide screens*/
 @media screen and (min-width: 1250px) {
     .name {
         margin-bottom: 30px;
@@ -262,6 +272,7 @@ footer {
         margin-bottom: 50px;
     }
 }
+
 /*Catering for users with ultra wide screens*/
 @media screen and (min-width: 1440px) {
     header {

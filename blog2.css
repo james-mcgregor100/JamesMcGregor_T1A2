@@ -114,7 +114,8 @@ the website*/
 /*Important button which serves the function of allowing 
 users to navigate between individual blog pages.*/
 .blogpost {
-    display: flex;
+    display: flex;/*This button uses flexbox to ensure suitable spacing and alignment 
+    under the nav bar. Without flexbox this spacing and alignment would not work.*/
     width: 85%;
     height: 40px;
     justify-content: space-around;
@@ -128,6 +129,8 @@ users to navigate between individual blog pages.*/
     transform: scale(1.15);
 }
 
+/*This block serves the purpose of removing the typical underline and blue colour seen on
+hyperlinks on websites*/
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: rgba(248, 250, 250, 0.829);
@@ -174,7 +177,7 @@ section {
     margin-top: 1%;
     border-radius: 3px;
     box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.349);
-    shape-outside: circle(90%);
+    shape-outside: circle(90%);/*This allows the text to wrap around the image evenly, no matter the screen size.*/
     margin-bottom: 5%;
     margin-right: 4%;
     opacity: 0.9;
@@ -224,7 +227,8 @@ sprinkling on top */
         margin-top: 1%;
         border-radius: 3px;
         box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.349);
-        shape-outside: circle(90%);
+        shape-outside: circle(90%);/*This allows the text to wrap around the image evenly, no
+matter the screen size.*/
         margin-bottom: 1%;
         margin-right: 4%;
         opacity: 0.9;
