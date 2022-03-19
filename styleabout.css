@@ -14,6 +14,7 @@ html, body {
     padding: 0;
 }
 
+/*Header Section - designed to hold the heading and navigation menu in place*/
 header {
     display: flex;
     flex-wrap: wrap;
@@ -27,6 +28,7 @@ header {
     top: 0;
 }
 
+/*Page heading to tell the user what page they are on*/
 .name {
     color: white;
     margin: 0;
@@ -40,6 +42,7 @@ header {
     text-shadow: 2px .5px 2px rgb(23, 26, 27);
 }
 
+/*Nav Bar Section*/
 .dropdown {
     position: relative;
     display: inline-block;
@@ -47,6 +50,8 @@ header {
     z-index: 20;
 }
 
+/*This button will allow users to hover over it and a dropdown menu will appear, with the
+main pages of the website available to click*/
 .menu_button {
     margin-top: 15px;
     display: inline-block;
@@ -65,6 +70,7 @@ header {
     letter-spacing: 5px;
 }
 
+
 .menu_button:hover {
     background:rgba(108, 238, 227, 0.692);  
 }
@@ -81,6 +87,8 @@ header {
     left: -16%;
 }
 
+/*Dropdown Menu - This is the part of the navigation menu that drops down and allows users
+to visit any main page on the website*/
 .dropdown:hover .dropdown-menu {
     background: rgba(2, 2, 2, 0.938);
     display: block;
@@ -104,16 +112,29 @@ header {
     text-decoration: none;
 }
 
+/*This block serves the purpose of removing the typical underline and blue colour seen o
+hyperlinks on websites*/
 a, a:hover, a:focus, a:active {
     text-decoration: none;
-    color: rgba(248, 250, 250, 0.829);
 }
 
+/*I was unable to use a "button" component for this resume link. When I made this a button element using semantic html, I could not fix the automatic styling properties that CSS added to the button, and it ruined the look of the button and the whole page. So I have made the decision to use "div" for styling purposes. It is understood if I am marked down for this. I will try to find a way to solve this problem with the automatic "button" styling properties in CSS*/
 .resume {
     text-align: center;
     font-family: 'Concert One', cursive;
-    height: 100px;
+    height: 60px;
     padding: 10px;
+}
+
+/*This resume link is active and the the user is able to hover over the text and download the resume in a PDF file*/
+#jamesresume {
+    font-size: 30px;
+    color: white;
+}
+
+#jamesresume:hover {
+    color: rgba(83, 250, 228, 0.904);
+    text-decoration: underline;
 }
 
 body {
@@ -130,24 +151,15 @@ main {
     height: 1400px;
 }
 
-#jamesresume {
-    font-size: 30px;
-    color: white;
-}
-
-#jamesresume:hover {
-    color: rgba(83, 250, 228, 0.904);
-    text-decoration: underline;
-}
-
+/*Coder Academy was highlighted in a special blue colour, which is the colour of Coder Academy's logo. This was done to show off the school that have graduated from, due to its strong reputation in tech circles in Australia*/
 #coderacademy {
     color:aqua;
 }
 
+/*The coder academy text is also linked to the Coder Academy website. This is done so any employers, recruiters or other people who do not yet know about Coder Academy can visit the website to find out about how amazing Coder Academy is*/
 #coderacademy:hover {
     text-decoration: underline;
 }
-
 
 .grid {
     width: 100%;
@@ -191,11 +203,7 @@ main {
     height: 100%;
 }
 
-#codercolor {
-    color: skyblue;
-}
-
-/*Chose to highlight the colors of each coding language according to the company's logo colour to grab the reader's attention.*/
+/*A decision was madeh to highlight the colors of each coding language according to the company's logo colour to grab the reader's attention.*/
 #htmlcolor {
     color: rgba(255, 162, 74, 0.959);
 }
@@ -224,6 +232,8 @@ main {
     color: rgba(109, 250, 109, 0.856);
 }
 
+/*Footer Section - Using Flexbox. Holds the social media
+buttons and copyright symbol in place */
 footer {
     display: flex;
     flex-direction: column;
@@ -235,12 +245,15 @@ footer {
     margin-bottom: 30px;
 }
 
+/*Button/Link Component - allowing user to connect with my social media accounts*/
 .social {
     margin: 20px;
     height: 40px;
     width: 40px;
 }
 
+/*Animation - When user hovers over the social media buttons they do a 360 degree spin.
+Just added for some fun and sprinkling on top */
 .social:hover {
     text-decoration: none;
     transform: rotate(360deg);
@@ -364,6 +377,7 @@ body {
     }
 }
 
+/*All media queries below were implemented to ensure maximum responsiveness up to the highest resolutions of 1440px and beyond*/
 @media only screen and (min-width: 1200px){
     .grid {
         width: 90%;

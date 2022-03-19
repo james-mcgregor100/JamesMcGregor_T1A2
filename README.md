@@ -1,5 +1,5 @@
 # JamesMcGregor_T1A2
-*Important notes left for Ashleigh/Lavanya/Markers at the bottom of the document.
+*Important notes for Ashleigh/Lavanya/Markers at the bottom of the document.
 
 # Links
 
