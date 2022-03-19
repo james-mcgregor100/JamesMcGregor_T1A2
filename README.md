@@ -100,7 +100,18 @@ Through the blog page (mentioned above), the user can also access a further five
 
 This basic but effective layout allows users to move back and forth between all pages throughout the website with minimal inconvenience.
 
+![Sitemap](./docs/sitemap.png)
+
 # Screenshots:
+
+## Page 1 - Home Page
+![screenshot_home](./docs/homedesktop.png)
+
+## Page 2 - About Page
+![screenshot_about](./docs/aboutdesktop.png) 
+
+## Page 3 - Blog Page
+![screenshot_blog](./docs/blogdesktop.png)
 
 # Target audience:
 The target audience for this website is a potential employer in the IT industry looking to engage myself as a developer for their company. While planning for, and desining this website, I had to be mindful of the level of knowledge and expectations of this IT professional.
