@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
 }
 
+/*Header Section - designed to hold the heading and navigation menu in place*/
 .name {
     display: flex;
     flex-direction: column;
@@ -39,6 +40,7 @@ body {
     padding-right: 10px;
 }
 
+/*Flexbox used to position and align the phone and email details below*/
 .contactdetails {
     margin-top: 10px;
     display: flex;
@@ -52,6 +54,7 @@ body {
     letter-spacing: 3px;
 }
 
+/*The phone number and email address are both active, clickable links which allow the user to simply click on the phone number or email address and contact me by phone or email*/
 .phoneemail {
     margin-top: 5px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.514);
@@ -72,12 +75,15 @@ body {
     color: rgb(173, 252, 252);
 }
 
+/*Nav Bar Section*/
 .dropdown {
     display: inline-block;
     height: 80px;
     z-index: 20;
 }
 
+/*This button will allow users to hover over it and a dropdown menu will appear, with the
+main pages of the website available to click*/
 .menu_button {
     margin-top: 15px;
     display: inline-block;
@@ -110,6 +116,8 @@ body {
     padding-right: 10px;
 }
 
+/*Dropdown Menu - This is the part of the navigation menu that drops down and allows users
+to visit any main page on the website*/
 .dropdown:hover .dropdown-menu {
     background: rgba(5, 5, 5, 0.932);
     display: block;
@@ -134,11 +142,14 @@ body {
     text-decoration: none;
 }
 
+/*This block serves the purpose of removing the typical underline and blue colour seen o
+hyperlinks on websites*/
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: rgba(248, 250, 250, 0.829);
 }
 
+/*This container directs the user to think about inputing their information into the contact form in order to contact me about job opportunities or internships*/
 .form-container {
     background:rgba(248, 248, 250, 0.178);
     border-radius: 5px;
@@ -163,6 +174,7 @@ label {
     text-shadow: 2px .5px 3px rgba(0, 0, 0, 0.705);
 }
 
+/*This input component allows for the user to enter their details into the form*/
 input {
     width: 75%;
     background: rgba(185, 184, 184, 0.562);
@@ -173,6 +185,7 @@ input#message {
     width: 90%;
 }
 
+/*This submit button allows for the user to click on the button and submit their contact form to me*/
 #submitbutton {
     width: 90px;
     height: 25px;
@@ -185,6 +198,8 @@ input#message {
     background-color:rgba(15, 17, 19, 0.699);
 }
 
+/*Footer Section - Using Flexbox. Holds the social media
+buttons and copyright symbol in place */
 footer {
     display: flex;
     flex-direction: column;
@@ -196,6 +211,7 @@ footer {
     height: 100px;
 }
 
+/*Button/Link Component - allowing user to connect with my social media accounts*/
 .social {
     height: 40px;
     margin-left: 10px;
@@ -203,6 +219,8 @@ footer {
     width: 40px;
 }
 
+/*Animation - When user hovers over the social media buttons they do a 360 degree spin.
+Just added for some fun and sprinkling on top */
 .social:hover {
     text-decoration: none;
     transform: rotate(360deg);

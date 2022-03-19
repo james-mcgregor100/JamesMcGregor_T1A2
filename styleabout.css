@@ -104,6 +104,7 @@ to visit any main page on the website*/
     padding: 20px;
     border: none;
     border-top: solid 1px rgba(4, 191, 248, 0.336);
+    color: white;
 }
 
 .dropdown-menu a:hover {
