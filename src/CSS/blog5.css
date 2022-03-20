@@ -228,8 +228,18 @@ sprinkling on top */
 
 @media screen and (min-width: 700px) {
 
+    header {
+        height: 350px;
+    }
+
     .name {
         font-size: 3em;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    .dropdown {
+        margin-bottom: 30px;
     }
     
     main {
