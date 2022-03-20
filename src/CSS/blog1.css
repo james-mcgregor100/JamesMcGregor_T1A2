@@ -35,7 +35,7 @@ header {
     text-align: center;
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 3px;
-    padding-top: 0px;
+    padding-top: 0;
     margin-top: 10px;
     text-shadow: 2px .5px 2px rgb(23, 26, 27);
 }
@@ -283,7 +283,7 @@ footer {
 /*Catering for users with ultra wide screens*/
 @media screen and (min-width: 1600px) {
     header {
-        margin-top: 0px;
+        margin-top: 0;
         height: 400px;
         margin-bottom: 50px;
     }

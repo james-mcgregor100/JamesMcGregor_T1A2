@@ -10,23 +10,35 @@
     </style>
 </head>
 <body> 
+    <!--The header section is used to group the page title and
+    navigation menu together in one flexbox property-->
     <header>
         <h2 class="name">Imposter Sydnrome</h2>
-        <div class="dropdown">
+        <nav class="dropdown">
+        <!--This button will allow users to hover over the
+        button to reveal the navigation menu to move 
+        between all pages on the website-->
             <button class="menu_button">Menu</button>
-            <div class="dropdown-menu">
+            <!--This is the list of links to pages that will
+            appear upon hovering over the menu button-->
+            <nav class="dropdown-menu">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="blog.html">Blog</a>
                 <a href="project1.html">Projects</a>
                 <a href="contact.html">Contact</a>
-            </div>
-        </div>
-        <div class="blogpost">
+            </nav>
+        </nav>
+        <!--This link is included to allow users to change
+        from one blog post to the next, without having to 
+        return back to the Blog Home Page-->
+        <nav class="blogpost">
             <a href="blog2.html" id="previouspost">&larr; Previous Post</a>
             <a href="blog4.html" id="nextpost">Next Post &rarr;</a>
-        </div>
-    </header> 
+        </nav>
+    </header>
+<!--This section lays out the blog for the page, including
+images and text paragraphs.-->
 <main class="grid">
     <article class="box1">
         <h1>What is Imposter Syndrome?</h1>
@@ -65,15 +77,23 @@
         <br>
         Here is the beginning of the blog lorem ipsum. Here is the beginning of theblog lorem ipsum. Here is the beginning of the blog lorem ipsum. Here isthe beginning of the blog lorem ipsum. Here is the beginning of the bloglorem ipsum. Here is the beginning of the blog lorem ipsum. Here is thebeginning of the blog lorem ipsum Here is the beginning of the blog loremipsumHere is the beginning of the blog lorem ipsumHere is the beginning ofthe blog lorem ipsumHere is the beginning of the blog lorem ipsum. Here isthe beginning of the blog lorem ipsum.
     </article>
-</main> 
+</main>
+    <!--The footer section is used to group the social media
+    buttons together along with the copyright text.--> 
     <footer>
-        <div class="bottom-social">
+        <nav class="bottom-social">
+            <!--Links have been included for each button below
+            to allow users to click the button and access my 
+            various social media profiles directly.-->
             <a href="https://www.twitter.com/james_somtum/">
+            <!--Image icons have been added to style each 
+            social media button to add styling and increase
+            the overal aesthetics of the page-->
             <img src="./Images/twitternew.png" id="socialtwitter" class="social" alt="Twitter"></a>
             <a href="https://www.github.com/james-mcgregor100"><img src="./Images/githubnew.png" 
         class="social" id="socialgithub" alt="Github"></a>
             <a href="https://www.linkedin.com/in/james-mcgregor100/"><img src="./Images/linkedinnew.png" id="sociallinkedin" class="social" alt="Linkedin"></a>
-        </div>
+        </nav>
         <div class="copyright">
             <h4>Copyright James McGregor&copy;</h4>
         </div>

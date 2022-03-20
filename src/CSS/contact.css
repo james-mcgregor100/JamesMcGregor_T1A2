@@ -246,31 +246,29 @@ Just added for some fun and sprinkling on top */
 /*Using this breakpoint to increase the width of the message box*/
 @media only screen and (min-width: 630px){
 
-    .form-container {
-        margin-left: 10%;
-        margin-right: 10%;
-        padding-top: 10px;
-        margin-bottom: 50px;
+.form-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    margin-bottom: 50px;
 }
 }
 
 /*Using this breakpoint to increase the width of the message box*/
 @media only screen and (min-width: 960px){
     
-    .myname {
-        /*font-size: 4em;*/
-    }
-
-    .form-container {
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: 3%;
-        padding-top: 10px;
-    }
-
-    .myname {
-        margin-top: 4%;
-        margin-bottom: 2%;
-    }
-    }
+.myname {
+    /*font-size: 4em;*/
+}
+.form-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    padding-top: 10px;
+}
+.myname {
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+}
 

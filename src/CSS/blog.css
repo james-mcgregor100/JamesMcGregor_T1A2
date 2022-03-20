@@ -33,7 +33,6 @@ header {
 /*Page heading to tell the user what page they are on*/
 .name {
     color: white;
-    margin: 0;
     font-size: 9vw;
     width: 100%;
     text-align: center;
@@ -130,7 +129,7 @@ main {
     padding-bottom: 0;
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     height: 1400px;
     width: 90%; 
     border-radius: 5px;

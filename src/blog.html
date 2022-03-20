@@ -10,22 +10,32 @@
     </style>
 </head>
 <body> 
+    <!--The header section is used to group the page title and navigation menu together
+    in one flexbox property-->
     <header>
         <h2 class="name">Blog Updates</h2>
         <nav class="dropdown">
+            <!--This button will allow users to hover over the
+            button to reveal the navigation menu to move 
+            between all pages on the website-->
             <button class="menu_button">Menu</button>
-            <div class="dropdown-menu">
+            <!--This is the list of links to pages that will
+            appear upon hovering over the menu button-->
+            <nav class="dropdown-menu">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="project1.html">Projects</a>
                 <a href="contact.html">Contact</a>
-            </div>
+            </nav>
         </nav>
     </header>  
 <main>
+    <!--This section is responsible for laying out the five blog posts in a neat layout.-->
     <section class="grid">
+        <!--The links in the section below allow the user to click on them to access the individual blog page-->
         <a href="blog5.html" class="box">
             <h1 class="blogtitle">Life at Coder Academy: My First Few Weeks</h1>
+            <!--The images in the section below add styling to each blog post, and increase overall aesthetics of the website-->
             <img src="./Images/connected.jpeg" class="gridimage" alt="Photo of Two Characters Using New Technology">
             <h3 class="blogsubtitle">10th March 2022</h3>
         </a>
@@ -51,15 +61,23 @@
         </a>
     </section>
 </main>
+    <!--The footer section is used to group the social media
+    buttons together along with the copyright text.-->
     <footer class="footer-bottom">
-        <div class="bottom-social">
+        <nav class="bottom-social">
+            <!--Links have been included for each button below
+            to allow users to click the button and access my 
+            various social media profiles directly.-->
             <a href="https://www.twitter.com/james_somtum/">
+            <!--Image icons have been added to style each 
+            social media button to add styling and increase 
+            the overal aesthetics of the page-->    
             <img src="./Images/twitternew.png" class="social" alt="Twitter"></a>
             <a href="https://www.github.com/james-mcgregor100">
             <img src="./Images/githubnew.png" class="social" alt="Github"></a>
             <a href="https://www.linkedin.com/in/james-mcgregor100/">
             <img src="./Images/linkedinnew.png" class="social" alt="Linkedin"></a>
-        </div>
+        </nav>
         <div class="copyright">
             <h4>Copyright James McGregor&copy;</h4>
         </div>
